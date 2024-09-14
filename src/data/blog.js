@@ -1,5 +1,3 @@
-import logo from "../assets/logo";
-
 // data/blog.js
 const blogData = {
   name: "My Blog",
