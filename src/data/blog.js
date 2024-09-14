@@ -1,31 +1,26 @@
 import logo from "../assets/logo";
 
+// data/blog.js
 const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
+  name: "My Blog",
+  about: "This is a blog about various topics.",
+  image: "https://example.com/my-image.jpg",
   posts: [
     {
-      id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
+      title: "First Post",
+      date: "September 12, 2024",
+      preview: "This is a preview of the first post.",
+      minutes: 7,
     },
     {
-      id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
-    },
-    {
-      id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
-    },
-  ],
+      title: "Second Post",
+      date: "September 13, 2024",
+      preview: "This is a preview of the second post.",
+      minutes: 35,
+    }
+    // Add more posts as needed
+  ]
 };
 
 export default blogData;
+
